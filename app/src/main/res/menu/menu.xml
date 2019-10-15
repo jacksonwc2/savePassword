@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="HomeActivity">
+
+    <item
+        android:id="@+id/search"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:title="Pesquisar"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+    <item
+        android:id="@+id/novaCredencial"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_input_add"
+        android:orderInCategory="100"
+        android:title="Novo"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sobre"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="100"
+        android:title="Sobre"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/sair"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:orderInCategory="100"
+        android:title="Sair"
+        app:showAsAction="never" />
+
+
+</menu>
